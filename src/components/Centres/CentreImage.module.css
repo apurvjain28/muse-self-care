@@ -1,0 +1,9 @@
+.img__container {
+  width: 30%;
+  float: left;
+}
+
+.img__image {
+  margin: 30px;
+  width: 120%;
+}

@@ -1,0 +1,13 @@
+.displayContainer {
+  width: 30%;
+  float: left;
+  width: 33%;
+  margin: 30px;
+  border: 1px solid black;
+}
+
+.content {
+  height: 26rem;
+  overflow: scroll;
+  padding: 2rem;
+}

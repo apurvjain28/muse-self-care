@@ -1,0 +1,50 @@
+div {
+  width: 30%;
+  float: left;
+}
+
+/* PARAGRAPH */
+
+div.para {
+  width: 25%;
+  margin: 30px;
+}
+
+.para_body {
+  border: 1px solid black;
+  height: 300px;
+  overflow: scroll;
+  padding: 2rem;
+}
+
+/* BUTTON */
+
+div.btn {
+  margin: 30px;
+  width: 5%;
+}
+
+button {
+  margin: 10px auto;
+  display: block;
+}
+
+/* IMAGE */
+
+img {
+  margin: 30px;
+  width: 100%;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+}
+
+.heading {
+  float: right;
+  font-size: 20px;
+  color: white;
+  margin-left: 400px;
+}

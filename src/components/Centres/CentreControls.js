@@ -88,6 +88,12 @@ const CentreControls = (props) => {
         id="Head"
         type="button"
         onClick={displayHeadHandler}
+        style={{
+          background: personCentre.isHeadDefined ? "#66BA3E" : "#D04040",
+          border: personCentre.isHeadDefined
+            ? "1px solid #66BA3E"
+            : "1px solid #D04040",
+        }}
       >
         Head
       </Button>
@@ -96,6 +102,12 @@ const CentreControls = (props) => {
         id="Ajna"
         type="button"
         onClick={displayAjnaHandler}
+        style={{
+          background: personCentre.isAjnaDefined ? "#66BA3E" : "#D04040",
+          border: personCentre.isAjnaDefined
+            ? "1px solid #66BA3E"
+            : "1px solid #D04040",
+        }}
       >
         Ajna
       </Button>
@@ -104,6 +116,12 @@ const CentreControls = (props) => {
         id="Throat"
         type="button"
         onClick={displayThroatHandler}
+        style={{
+          background: personCentre.isThroatDefined ? "#66BA3E" : "#D04040",
+          border: personCentre.isThroatDefined
+            ? "1px solid #66BA3E"
+            : "1px solid #D04040",
+        }}
       >
         Throat
       </Button>
@@ -112,6 +130,12 @@ const CentreControls = (props) => {
         id="Identity"
         type="button"
         onClick={displayIdentityHandler}
+        style={{
+          background: personCentre.isIdentityDefined ? "#66BA3E" : "#D04040",
+          border: personCentre.isIdentityDefined
+            ? "1px solid #66BA3E"
+            : "1px solid #D04040",
+        }}
       >
         Identity
       </Button>
@@ -120,6 +144,12 @@ const CentreControls = (props) => {
         id="Heart"
         type="button"
         onClick={displayHeartHandler}
+        style={{
+          background: personCentre.isHeartDefined ? "#66BA3E" : "#D04040",
+          border: personCentre.isHeartDefined
+            ? "1px solid #66BA3E"
+            : "1px solid #D04040",
+        }}
       >
         Heart
       </Button>
@@ -128,6 +158,12 @@ const CentreControls = (props) => {
         id="Sacral"
         type="button"
         onClick={displaySacralHandler}
+        style={{
+          background: personCentre.isSacralDefined ? "#66BA3E" : "#D04040",
+          border: personCentre.isSacralDefined
+            ? "1px solid #66BA3E"
+            : "1px solid #D04040",
+        }}
       >
         Sacral
       </Button>
@@ -136,6 +172,12 @@ const CentreControls = (props) => {
         id="Emotions"
         type="button"
         onClick={displayEmotionsHandler}
+        style={{
+          background: personCentre.isEmotionsDefined ? "#66BA3E" : "#D04040",
+          border: personCentre.isEmotionsDefined
+            ? "1px solid #66BA3E"
+            : "1px solid #D04040",
+        }}
       >
         Emotions
       </Button>
@@ -144,6 +186,12 @@ const CentreControls = (props) => {
         id="Spleen"
         type="button"
         onClick={displaySpleenHandler}
+        style={{
+          background: personCentre.isSpleenDefined ? "#66BA3E" : "#D04040",
+          border: personCentre.isSpleenDefined
+            ? "1px solid #66BA3E"
+            : "1px solid #D04040",
+        }}
       >
         Spleen
       </Button>
@@ -152,6 +200,12 @@ const CentreControls = (props) => {
         id="Root"
         type="button"
         onClick={displayRootHandler}
+        style={{
+          background: personCentre.isRootDefined ? "#66BA3E" : "#D04040",
+          border: personCentre.isRootDefined
+            ? "1px solid #66BA3E"
+            : "1px solid #D04040",
+        }}
       >
         Root
       </Button>

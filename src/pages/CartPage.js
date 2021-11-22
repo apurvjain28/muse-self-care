@@ -1,5 +1,6 @@
-const CartPage = () => {
-  return <div>CART IS NOT FOUND!</div>;
-};
+import Cart from "../components/Cart/Cart";
 
+const CartPage = (props) => {
+  return <Cart />;
+};
 export default CartPage;

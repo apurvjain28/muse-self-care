@@ -1,11 +1,11 @@
 import classes from "./Layout.module.css";
 import MainNavigationbar from "./MainNavigationbar";
 
-function Layout(prop) {
+function Layout(props) {
   return (
     <div>
-      <MainNavigationbar />
-      <main className={classes.main}>{prop.children}</main>
+      <MainNavigationbar openCart={props.openCart} />
+      <main className={classes.main}>{props.children}</main>
     </div>
   );
 }

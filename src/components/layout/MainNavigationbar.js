@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 import classes from "./MainNavigationbar.module.css";
 import logo from "../../images/logo.JPG";
+import HeaderCartButton from "./HeaderCartButton";
 
-const MainNavigationbar = () => {
+const MainNavigationbar = (props) => {
   return (
     <header>
       <nav className={classes.header}>
@@ -26,14 +27,17 @@ const MainNavigationbar = () => {
               <span className={classes.badge}>{"2"}</span>
             </Link>
           </li>
-          <li>
-            <Link to="/cart">
+          {/* <li>
+            <Link to="/products">
               Cart
               <span className={classes.badge}>{"1"}</span>
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/account">My Account</Link>
+          </li>
+          <li>
+            <HeaderCartButton openCart={props.openCart} />
           </li>
         </ul>
       </nav>

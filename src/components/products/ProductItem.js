@@ -31,9 +31,9 @@ const ProductItem = (props) => {
         </div>
         <div className={classes.actions}>
           <button onClick={addToCartHandler}>Add to Cart</button>
-          <button onClick={props.onRemoveFromProductList}>
+          {/* <button onClick={props.onRemoveFromProductList}>
             Remove from List
-          </button>
+          </button> */}
         </div>
       </Card>
     </li>

@@ -8,6 +8,7 @@ const DUMMY_DATA = [
   {
     id: "p1",
     name: "The Misho Trifecta",
+    image: "/images/products/themishotrifecta.jpg",
     price: 65,
     description: `Pamper yourself with a trio of my mama's favourite daily ritual: 
                   Aventurine Gua Sha - larger in size than our Jade Gua sha, which my Mom prefers.
@@ -18,6 +19,7 @@ const DUMMY_DATA = [
   {
     id: "p2",
     name: "Velvet Glow Facial Oil Elixir",
+    image: "/images/products/velvetglowfacialoilelixir.png",
     price: 30,
     description: `Velvet Glow says it all. Looking for healthy, glowing, nourished & hydrated skin? This lightweight beauty oil uses a blend of all-natural and high-performance ingredients to leave your skin supple and radiant. Can be used on the face or any place that needs a little TLC.`,
   },

@@ -1,5 +1,7 @@
-const AccountPage = () => {
-  return <div>Account IS NOT FOUND!</div>;
+import AccountDetails from "../components/Account/AccountDetails";
+
+const AccountPage = (props) => {
+  return <AccountDetails />;
 };
 
 export default AccountPage;

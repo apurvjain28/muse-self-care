@@ -19,22 +19,22 @@ const MainNavigationbar = (props) => {
 
         <ul>
           <li>
-            <Link to="/">My Centres</Link>
+            <Link to="/centres">My Centres</Link>
+          </li>
+          <li>
+            <Link to="/rituals">My Rituals</Link>
           </li>
           <li>
             <Link to="/products">
-              My Products
+              Products for Me
               <span className={classes.badge}>{"2"}</span>
             </Link>
           </li>
-          {/* <li>
-            <Link to="/products">
-              Cart
-              <span className={classes.badge}>{"1"}</span>
-            </Link>
-          </li> */}
           <li>
             <Link to="/account">My Account</Link>
+          </li>
+          <li>
+            <Link to="/">Login</Link>
           </li>
           <li>
             <HeaderCartButton openCart={props.openCart} />

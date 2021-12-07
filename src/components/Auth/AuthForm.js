@@ -1,4 +1,5 @@
 import { useState, useRef, useContext } from "react";
+import { useNavigate } from "react-router-dom";
 
 import classes from "./AuthForm.module.css";
 import AuthContext from "../../store/auth-context";
@@ -9,6 +10,7 @@ const AuthForm = () => {
   const [error, setError] = useState("");
 
   const authCtx = useContext(AuthContext);
+  const navigate = useNavigate();
 
   const emailInputRef = useRef();
   const passwordInputRef = useRef();
@@ -25,7 +27,6 @@ const AuthForm = () => {
     let url = "";
 
     // Could add validations on email and password
-
     if (isLogin) {
       url =
         "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyAMHzYM42z9cX4mySa4hO6dVCDBGRX17ow";
@@ -65,6 +66,7 @@ const AuthForm = () => {
       })
       .then((data) => {
         authCtx.login(data.idToken);
+        navigate("/centres");
       })
       .catch((err) => {
         setError(err.message);

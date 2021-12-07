@@ -6,7 +6,6 @@ const AccountDetails = () => {
       <section>
         <div>
           <h1>User Details</h1>
-          <button> Logout</button>
         </div>
         <form
           action="register_account.html"

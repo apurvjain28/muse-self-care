@@ -1,0 +1,37 @@
+.ritual_title{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.ritual_des {
+    text-align: center;
+}
+
+.ritual_head{
+    margin-top: 30px;
+    font-size: larger;
+    text-align: center;
+}
+
+.ritual_elements{
+    text-align: left;
+    margin: 20px;
+}
+
+.ritual_components{
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }

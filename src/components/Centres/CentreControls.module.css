@@ -1,0 +1,11 @@
+.btn__container {
+  width: 30%;
+  float: left;
+  width: 10%;
+  margin: 30px;
+}
+
+.btn__controls {
+  display: block;
+  margin: 10px auto;
+}

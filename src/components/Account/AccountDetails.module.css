@@ -1,0 +1,45 @@
+/* the styles for the form */
+
+.field {
+  box-sizing: content-box;
+  border: 1px solid #c0c0c0;
+  margin: 0 25rem;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+.field {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-top: 0.5em;
+}
+
+.legend {
+  color: #931420;
+  font-weight: bold;
+  font-size: 85%;
+  margin-bottom: 0.5em;
+}
+
+.field label {
+  float: left;
+  width: 12em;
+  text-align: right;
+}
+.field label,
+input,
+select {
+  font-size: 90%;
+}
+
+.field input,
+select {
+  width: 15em;
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* label {
+  float: left;
+  width: 12em;
+  text-align: right;
+} */

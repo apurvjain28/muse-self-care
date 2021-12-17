@@ -1,0 +1,9 @@
+.upper_head {
+  text-align: center;
+  margin: 30px;
+  border: 1px solid black;
+  background-color: #2596be;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
